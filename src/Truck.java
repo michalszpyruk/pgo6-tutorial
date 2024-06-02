@@ -3,8 +3,8 @@ public class Truck extends Vehicle {
     double fuelConsumed;
     double cargoWeight;
 
-    Truck(double milesDriven, double fuelConsumed, double cargoWeight) {
-        super("Peugeot", "501", 2005);
+    public Truck(String make, String model, int year, double milesDriven, double fuelConsumed, double cargoWeight) {
+        super(make, model, year);
         this.milesDriven = milesDriven;
         this.fuelConsumed = fuelConsumed;
         this.cargoWeight = cargoWeight;
